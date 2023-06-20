@@ -1,0 +1,207 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Poecilotheria formosa",
+          "price": 959.58,
+          "sale": 1599.30, "percent": "40",
+          "details": "Details: Aeborial Tarantula & Old World Type",
+          "image": { "fields": { "file": { "url": "./Poecilotheria_formosa01.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Poecilotheria metallica",
+          "price": 1750.35,
+          "sale": 2500.50, "percent": "30",
+          "details": "Details: Aeborial Tarantula & Old World Type",
+          "image": { "fields": { "file": { "url": "./Poecilotheria_metallica.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Poecilotheria rufilata",
+          "price": 495.24,
+          "sale": 1650.80, "percent": "70",
+          "details": "Details: Aeborial Tarantula & Old World Type",
+          "image": { "fields": { "file": { "url": "./Poecilotheria_rufilata_.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Ceratogyrus darlingi",
+          "price": 350.42,
+          "sale": 500.60, "percent": "30",
+          "details": "Details: Burrower Tarantula & Old World Type",
+          "image": { "fields": { "file": { "url": "./Baboon_Spider_(Ceratogyrus_sp.).jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Ceratogyrus meridionalis",
+          "price": 420.56,
+          "sale": 600.80, "percent": "30",
+          "details": "Details: Burrower Tarantula & Old World Type",
+          "image": { "fields": { "file": { "url": "./cmerid.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Ceratogyrus sanderi",
+          "price": 790.45,
+          "sale": 1580.90, "percent": "50",
+          "details": "Details: Burrower Tarantula & Old World Type",
+          "image": { "fields": { "file": { "url": "./sanderi.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Hottentotta jayakari",
+          "price": 1400.42,
+          "sale": 2000.60, "percent": "30",
+          "details": "Details: Dessert Scorpion Type",
+          "image": { "fields": { "file": { "url": "./hottentotta_jayakari.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Hottentotta conspersus",
+          "price": 4000.64,
+          "sale": 5000.80, "percent": "20",
+          "details": "Details: Dessert Scorpion Type",
+          "image": { "fields": { "file": { "url": "./hottentotta_conspersus.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "9" },
+        "fields": {
+          "title": "Tliltocatl albopilosus",
+          "price": 350.42,
+          "sale": 500.60, "percent": "30",
+          "details": "Details: Terrestrial & New World Type",
+          "image": { "fields": { "file": { "url": "./tlitocalt_albopilosum.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "10" },
+        "fields": {
+          "title": "Ceratogyrus hillyardi",
+          "price": 1500.25,
+          "sale": 3000.50, "percent": "50",
+          "details": "Details: Burrower Tarantula & Old World Type",
+          "image": { "fields": { "file": { "url": "./ceratogyrus_hillyardi.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "11" },
+        "fields": {
+          "title": "Ceratogyrus marshalli",
+          "price": 500.40,
+          "sale": 1000.80, "percent": "50",
+          "details": "Details: Burrower Tarantula & Old World Type",
+          "image": { "fields": { "file": { "url": "./ceratogyrus_marshalli.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "12" },
+        "fields": {
+          "title": "Ceratogyrus attonifer",
+          "price": 7200.64,
+          "sale": 9000.80, "percent": "20",
+          "details": "Details: Burrower Tarantula & Old World Type",
+          "image": { "fields": { "file": { "url": "./ceratogyrus_attonifer.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "13" },
+        "fields": {
+          "title": "Aeborial Enclosure",
+          "price": 959.58,
+          "sale": 1599.30, "percent": "40",
+          "details": "Details: Type of enclosure for Aeborial Tarantula",
+          "image": { "fields": { "file": { "url": "./justforyou/aeborial_enclosure1.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "14" },
+        "fields": {
+          "title": "Aeborial Enclosure",
+          "price": 1750.35,
+          "sale": 2500.50, "percent": "30",
+          "details": "Details: Type of enclosure for Aeborial Tarantula",
+          "image": { "fields": { "file": { "url": "./justforyou/aeborial_enclosure2.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "15" },
+        "fields": {
+          "title": "Aeborial Enclosure Small",
+          "price": 495.24,
+          "sale": 1650.80, "percent": "70",
+          "details": "Details: Type of enclosure for Aeborial Tarantula",
+          "image": { "fields": { "file": { "url": "./justforyou/aeborial_enclosure3_small.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "16" },
+        "fields": {
+          "title": "Aeborial Enclosure",
+          "price": 350.42,
+          "sale": 500.60, "percent": "30",
+          "details": "Details: Type of enclosure for Aeborial Tarantula",
+          "image": { "fields": { "file": { "url": "./justforyou/aeborial_enclosure4.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "17" },
+        "fields": {
+          "title": "Hottentotta ",
+          "price": 959.58,
+          "sale": 1599.30, "percent": "40",
+          "details": "Details: Dessert Scorpion Type",
+          "image": { "fields": { "file": { "url": "./justforyou/hottentotta_caboverdensis.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "18" },
+        "fields": {
+          "title": "Hottentotta Hottentotta",
+          "price": 1750.35,
+          "sale": 2500.50, "percent": "30",
+          "details": "Details: Dessert Scorpion Type",
+          "image": { "fields": { "file": { "url": "./justforyou/hottentotta_hottentotta.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "19" },
+        "fields": {
+          "title": "Pastel Champagne BallPython",
+          "price": 2940.42,
+          "sale": 4200.60, "percent": "30",
+          "details": "Details: Pastel BallPython Type",
+          "image": { "fields": { "file": { "url": "./justforyou/pastel-champagne-ball-python-f.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "20" },
+        "fields": {
+          "title": "Axanthic BallPython",
+          "price": 3500.35,
+          "sale": 5000.50, "percent": "30",
+          "details": "Details: Dark Genus Pastel Pink Carrier",
+          "image": { "fields": { "file": { "url": "./justforyou/axanthic_ballpython.jpg" } } }
+        }
+      }
+    ]
+  }
+  
+    
+  
