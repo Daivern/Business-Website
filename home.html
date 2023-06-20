@@ -345,11 +345,17 @@
               }
           });
       }
-      clearCart(){
-          let cartItems = cart.map(item => item.id);
+      clearCart(){  // Argument for 0 items in cart
+        if (cart.length == 0){
+            alert("Cart is Empty");
+        }   
+        
+        else{
+            let cartItems = cart.map(item => item.id);
           alert("Redirecting to Check Out");
           window.location.href = "checkout.html";
-  
+          }
+        //End of Argument
           while(cartContent.children.length>0){
               cartContent.removeChild(cartContent.children[0]);
           }
