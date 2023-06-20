@@ -429,10 +429,17 @@ cartLogic(){
     });
 }
 clearCart(){
-    let cartItems = cart.map(item => item.id);
-    
+        // Argument of 0 item cart
+    if(cart.length == 0){
+        alert("Cart is Empty");
+        return;
+    }
+
+    else{let cartItems = cart.map(item => item.id);
     alert("Redirecting to Check Out");
     window.location.href = "checkout.html";
+    }
+    // End of Argument of 0 item cart
 
     while(cartContent.children.length>0){
         cartContent.removeChild(cartContent.children[0]);
