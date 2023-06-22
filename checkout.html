@@ -38,15 +38,15 @@
                     <h1 class="shipInfo">SHIPPING INFORMATION:</h1>
                   <form action="" class="form">
                   <label for="">First name:</label>  <br> 
-                  <input type="text" name="" id="" placeholder="Your name..">  <br> 
+                  <input type="text" name="" id="" placeholder="Your name.." class="input_required" required>  <br> 
                   <label for="">Last name:</label> <br>
-                  <input type="text" name="" id="" placeholder="Your last name.."> <br>
+                  <input type="text" name="" id="" placeholder="Your last name.." class="input_required" required> <br>
                   <label for="">Delivery Address:</label> <br>
-                  <input type="text" name="" id="" placeholder="Your address.."> <br>
+                  <input type="text" name="" id="" placeholder="Your address.." class="input_required" required> <br>
                   <label for="">Email:</label> <br>
-                  <input type="email" name="" id="" placeholder="Your email.."> <br>
+                  <input type="email" name="" id="" placeholder="Your email.." class="input_required" required> <br>
                   <label for="">Contact Number:</label> <br>
-                  <input type="number" name="" id="" placeholder="Your number.."> <br>
+                  <input type="number" name="" id="num" placeholder="Your contact number.." class="input_required" required> <br>
     
                     
                   <label for="country">Payment Method:</label> <br>
@@ -300,18 +300,20 @@ cartLogic(){
     });
 }
 clearCart(){
-        // Argument in 0 item in Cart
-    if (cart.length == 0){
-        alert("Cart is Empty!");
+
+    const inputFields = document.querySelectorAll('.input_required');
+    const isAnyInputEmpty = Array.from(inputFields).some(input => input.value.trim() === '');
+
+    if(isAnyInputEmpty){
+        alert('Please fill out all fields');
         return;
     }
-
-    else{let cartItems = cart.map(item => item.id);
+            let cartItems = cart.map(item => item.id);
     cartItems.forEach(id => this.removeItem(id));
     alert("Thank you for Ordering!");
     window.location.href = "home.html";
-    }
-    // End of Argument in 0 item in Cart
+        
+    
 
     while(cartContent.children.length>0){
         cartContent.removeChild(cartContent.children[0]);
